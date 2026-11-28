@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptonix Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- BARRE LATERALE -->
+    <aside class="sidebar">
+
+        <div class="logo">🌐 Cryptonix</div>
+
+        <nav>
+            <a class="active" href="#">▦ Dashboard</a>
+            <a href="#">⌁ Portfolio</a>
+            <a href="#">▤ Asset</a>
+            <a href="#">♙ Wallet</a>
+            <a href="#">▱ Transaction</a>
+            <a href="#">♧ Data API</a>
+            <a href="#">◎ Staking Calculator</a>
+        </nav>
+
+        <div class="premium">
+            <div class="medal">🏅</div>
+            <h3>Unlock Premium</h3>
+            <p>Upgrade for advanced<br>analytics on audience</p>
+            <button>Upgrade Now</button>
+        </div>
+
+    </aside>
+
+
+    <!-- CONTENU PRINCIPAL -->
+    <main class="main">
+
+        <header class="topbar">
+            <h1>Dashboard</h1>
+
+            <div class="profile">
+                <button>⌕</button>
+                <button>♧</button>
+                <button>👨🏻‍💼</button>
+            </div>
+        </header>
+
+
+        <section class="content">
+
+            <!-- CARTES CRYPTOMONNAIES -->
+            <div class="coin-grid">
+
+                <div class="coin bitcoin">
+                    <div class="coin-header">
+                        <div>
+                            <h3>Bitcoin</h3>
+                            <p>BTC / USDT</p>
+                        </div>
+                        <span>₿</span>
+                    </div>
+
+                    <h2>14.45</h2>
+                    <p>$27,124.60 <b>+1.46%</b></p>
+                </div>
+
+
+                <div class="coin ethereum">
+                    <div class="coin-header">
+                        <div>
+                            <h3>Ethereum</h3>
+                            <p>ETH / USDT</p>
+                        </div>
+                        <span>♦</span>
+                    </div>
+
+                    <h2>10.42</h2>
+                    <p>$28,114.78 <b>+2.85%</b></p>
+                </div>
+
+
+                <div class="coin solana">
+                    <div class="coin-header">
+                        <div>
+                            <h3>Solana</h3>
+                            <p>SOL / USDT</p>
+                        </div>
+                        <span>◎</span>
+                    </div>
+
+                    <h2>150.30</h2>
+                    <p>$14,382.90 <b class="red">-0.75%</b></p>
+                </div>
+
+
+                <div class="coin algorand">
+                    <div class="coin-header">
+                        <div>
+                            <h3>Algorand</h3>
+                            <p>ALGO / USDT</p>
+                        </div>
+                        <span>Λ</span>
+                    </div>
+
+                    <h2>42.6</h2>
+                    <p>$6,175.00 <b>+1.85%</b></p>
+                </div>
+
+            </div>
+
+
+            <!-- PARTIE CENTRALE -->
+            <div class="dashboard-grid">
+
+                <!-- GRAPHIQUE -->
+                <section class="panel chart-panel">
+
+                    <div class="section-header">
+                        <div>
+                            <p class="muted">Last Update - 1 days ago</p>
+                            <h3>Bitcoin Cash (BCH)</h3>
+                        </div>
+
+                        <div class="filters">
+                            <button>24H⌄</button>
+                            <button>Proof of Work⌄</button>
+                            <button>Aug⌄</button>
+                        </div>
+                    </div>
+
+                    <h2 class="chart-price">$25.2326 <small>+1.46%</small></h2>
+
+                    <div class="chart">
+
+                        <div class="prices">
+                            <span>$1400</span>
+                            <span>$1200</span>
+                            <span>$1000</span>
+                            <span>$800</span>
+                            <span>$600</span>
+                        </div>
+
+                        <div class="chart-content">
+
+                            <div class="lines">
+                                <i></i><i></i><i></i><i></i><i></i>
+                            </div>
+
+                            <div class="candles">
+                                <i class="down"></i>
+                                <i class="up"></i>
+                                <i class="down"></i>
+                                <i class="up"></i>
+                                <i class="up"></i>
+                                <i class="down"></i>
+                                <i class="down"></i>
+                                <i class="up"></i>
+                                <i class="up"></i>
+                                <i class="down"></i>
+                                <i class="down"></i>
+                                <i class="up"></i>
+                                <i class="up"></i>
+                                <i class="down"></i>
+                                <i class="down"></i>
+                                <i class="up"></i>
+                                <i class="up"></i>
+                                <i class="up"></i>
+                                <i class="down"></i>
+                                <i class="up"></i>
+                                <i class="down"></i>
+                                <i class="up"></i>
+                                <i class="down"></i>
+                                <i class="up"></i>
+                                <i class="up"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="months">
+                            <span>Jan</span>
+                            <span>Feb</span>
+                            <span>Mar</span>
+                            <span>Apr</span>
+                            <span>May</span>
+                            <span>Jun</span>
+                            <span>Jul</span>
+                            <span>Aug</span>
+                            <span>Sep</span>
+                            <span>Oct</span>
+                            <span>Nov</span>
+                            <span>Dec</span>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- TRANSACTIONS -->
+                <section class="panel transactions">
+
+                    <div class="section-header">
+                        <h3>Recent Transaction</h3>
+                        <button>View all</button>
+                    </div>
+
+                    <div class="transaction avax">
+                        <span>Λ</span>
+                        <div>
+                            <h4>Avalanche</h4>
+                            <small>Buy</small>
+                        </div>
+                        <div class="amount">
+                            <h4>322.10 AVAX</h4>
+                            <small>Today, 08:30</small>
+                        </div>
+                    </div>
+
+                    <div class="transaction eth">
+                        <span>♦</span>
+                        <div>
+                            <h4>Ethereum</h4>
+                            <small>Buy</small>
+                        </div>
+                        <div class="amount">
+                            <h4>10.75 ETH</h4>
+                            <small>Yesterday, 19:51</small>
+                        </div>
+                    </div>
+
+                    <div class="transaction sol">
+                        <span>◎</span>
+                        <div>
+                            <h4>Solana</h4>
+                            <small class="red">Sell</small>
+                        </div>
+                        <div class="amount">
+                            <h4>10.19 SOL</h4>
+                            <small>11 Jan, 01:15</small>
+                        </div>
+                    </div>
+
+                    <div class="transaction btc">
+                        <span>₿</span>
+                        <div>
+                            <h4>Bitcoin</h4>
+                            <small>Buy</small>
+                        </div>
+                        <div class="amount">
+                            <h4>420.25 BTC</h4>
+                            <small>09 Jan, 04:20</small>
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <!-- TABLEAU DES MARCHES -->
+                <section class="panel market">
+
+                    <div class="section-header">
+                        <h3>Market Table</h3>
+
+                        <div class="filters">
+                            <button>All</button>
+                            <button>Meta</button>
+                            <button>Gaming</button>
+                        </div>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Asset</th>
+                                <th>Category</th>
+                                <th>Price</th>
+                                <th>24h Volume</th>
+                                <th>24h Change</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>₿ BTC</td>
+                                <td>Bitcoin</td>
+                                <td>$62,480.20</td>
+                                <td>$28.6B</td>
+                                <td class="green">+2.95%</td>
+                            </tr>
+
+                            <tr>
+                                <td>♦ ETH</td>
+                                <td>Ethereum</td>
+                                <td>$3,180.45</td>
+                                <td>$1.42B</td>
+                                <td class="green">+4.85%</td>
+                            </tr>
+
+                            <tr>
+                                <td>◎ SOL</td>
+                                <td>Solana</td>
+                                <td>$102.30</td>
+                                <td>$865M</td>
+                                <td class="red">-1.72%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </section>
+
+
+                <!-- GAINS -->
+                <section class="panel earnings">
+
+                    <h3>My Earnings</h3>
+
+                    <div class="earning-card holding">
+                        <p>Holding</p>
+                        <h2>$3,842.75</h2>
+                        <span>Jan &nbsp; Feb &nbsp; Mar</span>
+                    </div>
+
+                    <div class="earning-card profits">
+                        <p>Monthly Profits</p>
+                        <h2>$689.40</h2>
+                        <span>Weekly</span>
+                    </div>
+
+                </section>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
